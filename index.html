@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estacionamento</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="icon" href="./img/sinal-de-estacionamento.png">
+</head>
+<body>
+
+    <header><h1>Estacionamento</h1></header>
+    
+    <div id="input">
+
+        <h1 class="cadastre">Cadastre seu veículo:</h1>
+        <input type="text" id="nome" placeholder="Digite o nome do veículo: " autocomplete="off">
+        <input type="text" id="placa" placeholder="Digite a placa do veículo: " autocomplete="off">
+
+        <button id="cadastrar">Cadastrar</button>
+    </div>
+
+    <table id="tabela">
+        <thead>
+            <tr>
+               <th>Veículo</th>
+               <th>Placa</th>
+               <th>Entrada</th>
+               <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="patio"></tbody>
+    </table>
+
+    <footer id="footer"><p>@Lucas Kaique</p></footer>
+    <script src="./scripts/scripts.js"></script>
+</body>
+</html>
